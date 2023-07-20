@@ -1,0 +1,4 @@
+Python file object provides methods and attributes to access and manipulate files. Using file objects, we can read or write any files.
+Using the open() function to create a new text file.
+"x" - Create - will create a file, returns an error if the file exist.
+"w" - Write - will create a file if the specified file does not exist.

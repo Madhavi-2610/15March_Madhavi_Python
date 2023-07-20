@@ -1,0 +1,33 @@
+How Do You Handle Exceptions With Try/Except/Finally In Python? 
+==>The try block lets you test a block of code for errors. 
+The except block lets you handle the error. 
+The else block lets you execute code when there is no error. 
+The finally block lets you execute code, regardless of the result of the try- and except blocks.
+____________________________________________________________________________________________________
+Explain with coding snippets. 
+The try...except block is used to handle exceptions in Python. 
+Example:
+a=34
+b=67
+
+try:
+    print("Sum:",a+B)
+except:
+    print("Error!")
+
+
+x=56
+y=23
+print("Mul:",x*y)
+_________________________________________________________________________________________________________
+In Python, the finally block is always executed no matter whether there is an exception or not.
+The finally block is optional. And, for each try block, there can be only one finally block.
+Example:
+try:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    print("Sum:",a+b)
+except Exception as e:
+    print(e)
+else:
+    print("This is finally block!")

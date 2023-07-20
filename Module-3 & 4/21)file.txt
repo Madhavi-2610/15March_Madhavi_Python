@@ -1,0 +1,3 @@
+What are oops concepts? Is multiple inheritance supported in python.
+Python include Class, Object, Method, Inheritance, Polymorphism, Data Abstraction, and Encapsulation.
+Python is one of the few modern programming languages that supports multiple inheritance.
